@@ -1,0 +1,44 @@
+{
+    "problems": [
+      {
+        "prompt": "Arrange the code to check if a number is prime.",
+        "blocks": [
+          { "id": "block-a1", "code": "is_prime = True" },
+          { "id": "block-b1", "code": "for i in range(2, int(n**0.5)+1):" },
+          { "id": "block-c1", "code": "if n % i == 0: is_prime = False" }
+        ],
+        "distractors": [
+          { "id": "block-d1", "code": "if i % n == 0: is_prime = False" },
+          { "id": "block-e1", "code": "n = 1" },
+          { "id": "block-f1", "code": "i = n" }
+        ]
+      },
+      {
+        "prompt": "Arrange the code to compute the sum of all even numbers up to n.",
+        "blocks": [
+          { "id": "block-a2", "code": "total = 0" },
+          { "id": "block-b2", "code": "for i in range(0, n+1, 2):" },
+          { "id": "block-c2", "code": "total += i" }
+        ],
+        "distractors": [
+          { "id": "block-d2", "code": "for i in range(1, n+1):" },
+          { "id": "block-e2", "code": "total = n" },
+          { "id": "block-f2", "code": "i += total" }
+        ]
+      },
+      {
+        "prompt": "Arrange the code to count the number of vowels in a string.",
+        "blocks": [
+          { "id": "block-a3", "code": "count = 0" },
+          { "id": "block-b3", "code": "for char in s:" },
+          { "id": "block-c3", "code": "if char.lower() in 'aeiou': count += 1" }
+        ],
+        "distractors": [
+          { "id": "block-d3", "code": "if char in 'aeiouAEIOU': count -= 1" },
+          { "id": "block-e3", "code": "s = ''" },
+          { "id": "block-f3", "code": "count = len(s)" }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parsons Pipelines</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Parsons Pipelines</h1>
+  <p id="problemPrompt"></p>
+
+  <div id="container">
+    <div class="column">
+      <h2>Available Blocks</h2>
+      <div id="blockPool" class="area"></div>
+    </div>
+    <div class="column">
+      <h2>Your Solution</h2>
+      <div id="slotArea" class="area"></div>
+    </div>
+  </div>
+
+  <button onclick="checkAnswer()">Check Answer</button>
+
+  <div id="certificateSection" style="display:none; margin-top: 20px;">
+    <h2>🎉 Certificate Generator 🎉</h2>
+    <input type="text" id="studentName" placeholder="Enter your name">
+    <input type="text" id="activityName" placeholder="Activity name">
+    <button onclick="generateCertificate()">Generate Certificate</button>
+    <div id="message"></div>
+    <div id="certificate" style="display:none;"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

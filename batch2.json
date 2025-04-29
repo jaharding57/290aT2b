@@ -1,0 +1,44 @@
+{
+    "problems": [
+      {
+        "prompt": "Arrange the code to calculate the factorial of n.",
+        "blocks": [
+          { "id": "block-a1", "code": "result = 1" },
+          { "id": "block-b1", "code": "for i in range(1, n+1):" },
+          { "id": "block-c1", "code": "result *= i" }
+        ],
+        "distractors": [
+          { "id": "block-d1", "code": "i *= result" },
+          { "id": "block-e1", "code": "n = 0" },
+          { "id": "block-f1", "code": "result = 0" }
+        ]
+      },
+      {
+        "prompt": "Arrange the code to find the maximum element in a list nums.",
+        "blocks": [
+          { "id": "block-a2", "code": "max_num = nums[0]" },
+          { "id": "block-b2", "code": "for num in nums:" },
+          { "id": "block-c2", "code": "if num > max_num: max_num = num" }
+        ],
+        "distractors": [
+          { "id": "block-d2", "code": "max_num = 0" },
+          { "id": "block-e2", "code": "nums = []" },
+          { "id": "block-f2", "code": "num = 0" }
+        ]
+      },
+      {
+        "prompt": "Arrange the code to reverse a string s.",
+        "blocks": [
+          { "id": "block-a3", "code": "reversed_s = ''" },
+          { "id": "block-b3", "code": "for char in s:" },
+          { "id": "block-c3", "code": "reversed_s = char + reversed_s" }
+        ],
+        "distractors": [
+          { "id": "block-d3", "code": "reversed_s += char" },
+          { "id": "block-e3", "code": "char = ''" },
+          { "id": "block-f3", "code": "s = ''" }
+        ]
+      }
+    ]
+  }
+  

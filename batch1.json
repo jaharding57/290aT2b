@@ -1,0 +1,43 @@
+{
+  "problems": [
+    {
+      "prompt": "Arrange the code so that x == 3 when program terminates.",
+      "blocks": [
+        { "id": "block-a1", "code": "x = 27" },
+        { "id": "block-b1", "code": "for i in range(2):" },
+        { "id": "block-c1", "code": "x /= 3" }
+      ],
+      "distractors": [
+        { "id": "block-d1", "code": "y = 57" },
+        { "id": "block-e1", "code": "x *= y" },
+        { "id": "block-f1", "code": "for i in range(3):" }
+      ]
+    },
+    {
+      "prompt": "Arrange the code blocks so the program prints all even numbers from 0 to 10.",
+      "blocks": [
+        { "id": "block-a2", "code": "for i in range(11):" },
+        { "id": "block-b2", "code": "if i%2 == 0:" },
+        { "id": "block-c2", "code": "print(i)" }
+      ],
+      "distractors": [
+        { "id": "block-d2", "code": "Initialize x = i" },
+        { "id": "block-e2", "code": "if x%2 == 0 AND i%x ==1:" },
+        { "id": "block-f2", "code": "for i in range(10)" }
+      ]
+    },
+    {
+      "prompt": "Arrange the code so that y becomes the sum of numbers 1 to 5 (inclusive).",
+      "blocks": [
+        { "id": "block-a3", "code": "y = 0" },
+        { "id": "block-b3", "code": "for i in range(1, 6):" },
+        { "id": "block-c3", "code": "y += i" }
+      ],
+      "distractors": [
+        { "id": "block-d3", "code": "x, y = 0" },
+        { "id": "block-e3", "code": "y += x" },
+        { "id": "block-f3", "code": "print(y)" }
+      ]
+    }
+  ]
+}

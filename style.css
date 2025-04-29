@@ -1,0 +1,58 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 40px;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .column {
+    flex: 1;
+    min-height: 300px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .column h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .block, .slot {
+    padding: 10px;
+    min-width: 150px;
+    min-height: 40px;
+    background: #f0f0f0;
+    border: 2px dashed #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .block {
+    cursor: grab;
+  }
+  
+  .slot {
+    background: #ffffff;
+    transition: background-color 0.2s ease;
+  }
+  
+  .slot.hover {
+    background-color: #d0e8ff; /* light blue when dragging over */
+  }
+  
