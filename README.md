@@ -16,5 +16,4 @@ I needed more batches. I was content to just have GPT generate them for me, beca
 Saturday, and I don't want to do all that right now. THEN, I made sure to vet each sequence,
 and I was pretty impressed with what 4o came up with in one-shot. Kinda wild.
 
-What value am I going to provide if machines are this intelligent now? Existential crisis, later,
-though.
+I wanted to add more styling and such, but I am not sure I will have time to do so.
